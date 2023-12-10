@@ -9,6 +9,7 @@ export default function Home() {
 </Head>
 <div>
   Linux
+  <img src="./landing.jpg" className="md:w-full blur-md" alt="" />
   </div>
 </>
   )
