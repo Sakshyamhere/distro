@@ -1,0 +1,30 @@
+{
+    "distro": {
+        "title": "CentOS",
+        "forslug": "centos",
+        "desc": "# CentOS\nCentOS is a popular Linux distribution known for its stability, reliability, and long-term support. It is based on the sources of Red Hat Enterprise Linux (RHEL) and aims to provide a free and open-source alternative with binary compatibility. CentOS is suitable for servers, data centers, and enterprise environments where a robust and secure operating system is essential.\n\n## Features and Philosophy\n- **Stability and Reliability:** CentOS is renowned for its stability and reliability, making it a preferred choice for server deployments and critical applications.\n\n- **Binary Compatibility with RHEL:** CentOS maintains binary compatibility with RHEL, allowing users to leverage RHEL-compatible software and packages.\n\n- **Long-Term Support (LTS):** CentOS follows a long-term support model, providing updates and security patches for an extended period.\n\n## Basic Commands\nCentOS uses the YUM (Yellowdog Updater, Modified) package management system. Here are some essential commands:\n\n- `sudo yum update`: Update the system and installed packages.\n\n- `sudo yum install [package]`: Install a new package.\n\n- `sudo yum remove [package]`: Remove a package.\n\n- `sudo yum search [keyword]`: Search for packages matching a keyword.\n\n## CentOS Alternatives\nAs of the recent changes in the CentOS project, two alternatives have emerged:\n",
+        "pros": "Stability and reliability,\nBinary compatibility with RHEL,\nLong-term support (LTS).",
+        "cons": "May have slightly older software versions,\nUpdates may not be as frequent as some other distributions.",
+        "communityrating": "4.7",
+        "Usability": "4.8",
+        "Performance": "4.9"
+    },
+        "subDistrs": [
+            {
+                "title": "Rocky Linux",
+                "forslug": "rockylinux",
+                "desc": "# Rocky Linux\nRocky Linux is a community-driven Linux distribution created as a replacement for CentOS following the changes introduced by CentOS Stream. It aims to provide a downstream, stable, and predictable distribution that serves as a free and open-source alternative to RHEL. Rocky Linux is particularly designed to meet the needs of users and organizations that were accustomed to the traditional CentOS model.\n\n## Features\n- **Continuation of CentOS Legacy:** Rocky Linux aims to continue the legacy of traditional CentOS by providing a stable and community-supported operating system.\n\n- **Binary Compatibility with RHEL:** Similar to CentOS, Rocky Linux maintains binary compatibility with RHEL, ensuring compatibility with RHEL-compatible software.\n\n- **Community-Driven Development:** Rocky Linux is developed and supported by the community, encouraging collaboration and contributions.\n\n## Pros\n- **Stable and Predictable:** Rocky Linux aims to provide a stable and predictable environment, catering to users who valued the traditional CentOS model.\n\n- **Community-Driven:** The development and support of Rocky Linux are driven by the community, fostering collaboration and inclusivity.\n\n## Cons\n- **Relatively Newer Compared to CentOS:** Rocky Linux is a newer project compared to CentOS, and users may need to assess its maturity based on their specific requirements.\n\n- **Community Support Availability:** As with any community-driven project, the availability of support may vary based on community engagement.\n",
+                "pros": "Stable and predictable,\nCommunity-driven.",
+                "cons": "Relatively newer compared to CentOS,\nCommunity support availability.",
+                "ratings": "Community: 4.8\nUsability: 4.7\nPerformance: 4.9"
+            },
+            {
+                "title": "AlmaLinux",
+                "forslug": "almalinux",
+                "desc": "# AlmaLinux\nAlmaLinux is another community-driven Linux distribution designed to be a direct, one-to-one binary replacement for CentOS. It is created to fill the void left by the shift in the CentOS project's direction and aims to provide a stable and free alternative for users and organizations that relied on the traditional CentOS model.\n\n## Features\n- **Seamless Transition from CentOS 8:** AlmaLinux is positioned as a seamless and drop-in replacement for CentOS 8, ensuring compatibility for users migrating from CentOS.\n\n- **Community-Led and Open Governance:** AlmaLinux emphasizes community-led development and open governance, allowing users to actively participate in the project's direction.\n\n- **Long-Term Support (LTS):** Similar to CentOS, AlmaLinux follows a long-term support model, providing updates and security patches for an extended period.\n\n## Pros\n- **Drop-In Replacement:** AlmaLinux aims to be a drop-in replacement for CentOS 8, simplifying the migration process for existing users.\n\n- **Community-Led:** The community-led development ensures active participation and diverse perspectives in the project.\n\n## Cons\n- **Relatively Newer Compared to CentOS:** AlmaLinux, being a newer project, may require users to assess its stability and suitability based on their specific needs.\n\n- **Community Support Availability:** As with any community-driven project, the availability of support may vary based on community engagement.\n",
+                "pros": "Drop-in replacement for CentOS 8,\nCommunity-led development.",
+                "cons": "Relatively newer compared to CentOS,\nCommunity support availability.",
+                "ratings": "Community: 4.7\nUsability: 4.8\nPerformance: 4.9"
+            }
+        ]
+    }
