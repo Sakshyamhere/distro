@@ -18,7 +18,7 @@ function Navbar() {
               {/* LOGO */}
               
               <Link href="/" className='flex items-center'>
-                <Image src='./logo.svg' height={40} width={40}/>
+                <Image src='./logo.svg' height={40} width={40} alt='logo'/>
                 <h2 className="text-2xl font-bold">DistroHub</h2>
               </Link>
               
