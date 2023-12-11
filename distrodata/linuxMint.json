@@ -1,0 +1,38 @@
+{
+    "distro": {
+        "title": "Linux Mint",
+        "forslug": "linux-mint",
+        "desc": "# Linux Mint\nLinux Mint is an elegant and user-friendly Linux distribution based on Debian and Ubuntu. It aims to provide a polished desktop experience with a variety of desktop environments to choose from. Linux Mint prioritizes simplicity, stability, and ease of use, making it an excellent choice for users transitioning from other operating systems.\n\n## Features and Philosophy\n- **User-Friendly and Intuitive Interface:** Linux Mint offers a desktop environment that is easy to navigate, making it accessible to users of all levels of experience. The user interface is designed to be intuitive and straightforward.\n\n- **Stable and Reliable:** Building upon the stability of Debian, Linux Mint provides a reliable computing experience. It is well-suited for both desktop and laptop use, offering a stable platform for various tasks.\n\n- **Large and Supportive Community:** Linux Mint benefits from a large and active community. Users can find support, tutorials, and a wealth of resources to enhance their Linux Mint experience.\n\n## Basic Commands\nLinux Mint uses the APT (Advanced Package Tool) package management system. Here are some essential commands:\n\n- `sudo apt update`: Update package information.\n\n- `sudo apt install [package]`: Install a new package.\n\n- `sudo apt remove [package]`: Remove a package.\n\n- `sudo apt upgrade`: Upgrade installed packages.\n\n## Linux Mint Flavors\nLinux Mint is available in different desktop environment flavors. Let's explore some of the popular ones:\n",
+        "pros": "User-friendly and intuitive interface,\nStable and reliable,\nLarge and supportive community.",
+        "cons": "Not as bleeding-edge as some distributions,\nLimited pre-installed applications compared to other distros.",
+        "communityrating": "4.8",
+        "Usability": "4.6",
+        "Performance": "4.4",
+        "subDistrs": [
+            {
+                "title": "Cinnamon",
+                "forslug": "cinnamon",
+                "desc": "# Cinnamon\nCinnamon is the flagship desktop environment for Linux Mint. It provides a modern and visually appealing interface, combining ease of use with advanced features. Cinnamon is designed to offer a comfortable and productive computing experience.\n\n## Features\n- **Traditional Desktop Paradigm:** Cinnamon follows a traditional desktop paradigm, with a panel, menu, and system tray, providing familiarity to users transitioning from other operating systems.\n\n- **Customizable and Themable:** Cinnamon is highly customizable, allowing users to tweak the desktop environment to suit their preferences. It also supports various themes to change the look and feel.\n\n- **Applets and Desklets:** Cinnamon features applets and desklets that add additional functionality and information to the desktop, enhancing the user experience.\n\n## Pros\n- **Modern and User-Friendly:** Cinnamon provides a modern and user-friendly desktop experience, making it accessible to users of all levels.\n\n- **Customization Options:** The high level of customization options allows users to tailor the desktop environment to their liking.\n\n## Cons\n- **May Have Slightly Higher Resource Usage:** Compared to lighter desktop environments, Cinnamon may have slightly higher resource usage.\n\n- **Updates May Introduce Minor Issues:** Updates to Cinnamon may occasionally introduce minor issues that are typically addressed quickly.\n",
+                "pros": "Modern and user-friendly,\nCustomization options.",
+                "cons": "May have slightly higher resource usage,\nUpdates may introduce minor issues.",
+                "ratings": "Community: 4.9\nUsability: 4.7\nPerformance: 4.8"
+            },
+            {
+                "title": "MATE",
+                "forslug": "mate",
+                "desc": "# MATE\nMATE is a desktop environment that aims to preserve the traditional desktop computing paradigm. It is a continuation of the GNOME 2 desktop, providing a familiar interface for users who prefer a classic and straightforward desktop experience.\n\n## Features\n- **Traditional Desktop Interface:** MATE follows the traditional desktop interface with a panel, menu, and applets, resembling the GNOME 2 desktop that was widely used in the past.\n\n- **Stable and Predictable:** MATE is known for its stability and predictability, offering a consistent user experience without frequent changes to the interface.\n\n- **Resource-Efficient:** MATE is designed to be resource-efficient, making it suitable for older hardware or users who prioritize system performance.\n\n## Pros\n- **Preserves Classic Desktop Paradigm:** MATE preserves the classic desktop paradigm, making it an ideal choice for users who prefer the familiar interface of GNOME 2.\n\n- **Stable and Predictable:** The stability of MATE ensures a reliable and consistent user experience.\n\n## Cons\n- **Less Flashy Than Some Modern Desktops:** MATE may lack some of the visual effects and modern features found in newer desktop environments.\n\n- **Limited Default Eye Candy:** The default appearance of MATE may be perceived as less visually appealing compared to some other desktops.\n",
+                "pros": "Preserves classic desktop paradigm,\nStable and predictable.",
+                "cons": "Less flashy than some modern desktops,\nLimited default eye candy.",
+                "ratings": "Community: 4.7\nUsability: 4.8\nPerformance: 4.6"
+            },
+            {
+                "title": "Xfce",
+                "forslug": "xfce",
+                "desc": "# Xfce\nXfce is a lightweight and fast desktop environment that prioritizes efficiency and performance. It is suitable for users who prefer a minimalistic yet functional desktop experience. Xfce is known for its speed, low resource usage, and customizable nature.\n\n## Features\n- **Lightweight and Fast:** Xfce is designed to be lightweight and fast, ensuring a snappy and responsive user experience even on older hardware.\n\n- **Customizable:** Xfce provides a high level of customization, allowing users to tailor the desktop environment to their preferences without sacrificing performance.\n\n- **Traditional Desktop Layout:** Xfce follows a traditional desktop layout with a panel, menu, and desktop icons, providing a familiar interface for users.\n\n## Pros\n- **Fast and Efficient:** Xfce excels in speed and efficiency, making it an excellent choice for users with older hardware or those who prioritize system performance.\n\n- **Customization Options:** The high level of customization options allows users to create a desktop environment that suits their workflow.\n\n## Cons\n- **Less Visual Polish:** Compared to some modern desktop environments, Xfce may have less visual polish and fewer built-in effects.\n\n- **Default Theme May Appear Dated:** The default appearance of Xfce may be perceived as less visually appealing compared to some other desktops.\n",
+                "pros": "Fast and efficient,\nCustomization options.",
+                "cons": "Less visual polish,\nDefault theme may appear dated.",
+                "ratings": "Community: 4.8\nUsability: 4.7\nPerformance: 4.9"
+            }
+        ]
+    }
+}

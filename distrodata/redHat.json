@@ -1,0 +1,30 @@
+{
+    "distro": {
+        "title": "Red Hat",
+        "forslug": "red-hat",
+        "desc": "# Red Hat\nRed Hat is a leading provider of open-source enterprise solutions, particularly known for its Red Hat Enterprise Linux (RHEL) operating system. Red Hat's commitment to stability, security, and support has made it a trusted choice for enterprise environments. RHEL serves as the foundation for various other distributions and is renowned for its focus on reliability and long-term support.\n\n## Features and Philosophy\n- **Enterprise-Grade Support:** Red Hat offers professional support services for its enterprise customers, ensuring timely security updates, bug fixes, and expert assistance.\n\n- **Security and Stability:** RHEL prioritizes security and stability, making it suitable for mission-critical applications in industries such as finance, healthcare, and telecommunications.\n\n- **Ecosystem of Solutions:** Beyond the operating system, Red Hat provides a comprehensive ecosystem of solutions, including container orchestration (OpenShift), middleware, and cloud management.\n\n## Basic Commands\nRed Hat and its derivatives use the YUM (Yellowdog Updater Modified) package manager. Here are some essential commands:\n\n- `yum update`: Update the system and installed packages.\n\n- `yum install [package]`: Install a new package.\n\n- `yum remove [package]`: Remove a package.\n\n- `yum list installed`: List all installed packages.\n\n- `yum search [keyword]`: Search for packages matching a keyword.\n\n## Sub-Distributions\nRed Hat's influence extends to various distributions, with Fedora and CentOS being notable examples. Let's explore them:\n",
+        "pros": "Enterprise-grade support,\nSecurity and stability,\nComprehensive ecosystem of solutions.",
+        "cons": "Subscription fees for official support,\nMay not have the latest software versions due to focus on stability.",
+        "communityrating": "4.7",
+        "Usability": "4.8",
+        "Performance": "4.9",
+        "subDistros": [
+            {
+                "title": "Fedora",
+                "forslug": "fedora",
+                "desc": "# Fedora\nFedora is a community-driven distribution sponsored by Red Hat. It serves as a cutting-edge testing ground for technologies that eventually make their way into Red Hat Enterprise Linux (RHEL). Fedora is known for its commitment to free and open-source software and its embrace of the latest advancements in the Linux ecosystem.\n\n## Features\n- **Bleeding-Edge Technologies:** Fedora often includes the latest software versions and technologies, making it an ideal choice for users who want to experience new features early.\n\n- **Regular Release Cycle:** Fedora follows a regular release cycle, with new versions typically every six months. This allows users to stay current with the latest developments.\n\n- **Diverse Spins:** Fedora offers different desktop environments known as spins, catering to various user preferences, including Workstation, KDE Plasma, XFCE, and more.\n.\n",
+                "pros": "Bleeding-edge technologies,\nRegular release cycle,\nDiverse spins.",
+                "cons": "Shorter support lifecycle,\nMay encounter bugs.",
+                "ratings": "Community: 4.9\nUsability: 4.7\nPerformance: 4.8"
+            },
+            {
+                "title": "CentOS",
+                "forslug": "centos",
+                "desc": "# CentOS\nCentOS (Community ENTerprise Operating System) is a free and open-source distribution built from the same source code used by Red Hat Enterprise Linux (RHEL). It aims to provide a binary-compatible alternative to RHEL without the associated subscription costs. CentOS is widely used for server deployments, offering a stable and reliable platform.\n\n## Features\n- **Binary Compatibility with RHEL:** CentOS strives to maintain binary compatibility with RHEL, ensuring that software developed and tested on CentOS can seamlessly run on RHEL.\n\n- **Long-Term Support (LTS):** CentOS releases receive updates and security patches for an extended period, providing stability for server environments.\n\n- **Rock-Solid Stability:** CentOS is known for its stability and reliability, making it a preferred choice for servers and critical applications.## .\n",
+                "pros": "Binary compatibility with RHEL,\nLong-term support (LTS),\nRock-solid stability.",
+                "cons": "Delayed updates,\nLimited desktop features.",
+                "ratings": "Community: 4.8\nUsability: 4.6\nPerformance: 4.7"
+            }
+        ]
+    }
+}

@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Home() {
   return (
@@ -7,9 +7,8 @@ export default function Home() {
 <Head>
   <title>Distro</title>
 </Head>
-<div>
-  Linux
-  <img src="./landing.jpg" className="md:w-full blur-md" alt="" />
+<div className="mx-auto text-center">
+Hwllo I am Sakshyam
   </div>
 </>
   )
