@@ -1,0 +1,30 @@
+{
+    "distro": {
+        "title": "openSUSE",
+        "forslug": "opensuse",
+        "desc": "# openSUSE\nopenSUSE is a Linux distribution known for its flexibility, robustness, and community-driven development model. It offers two primary versions: openSUSE Leap and openSUSE Tumbleweed. openSUSE embraces the YaST (Yet another Setup Tool) configuration tool, making system administration and configuration user-friendly.\n\n## Features and Philosophy\n- **YaST Configuration Tool:** openSUSE features YaST, a powerful and comprehensive configuration tool that simplifies system administration tasks, including package management, system settings, and more.\n\n- **Rolling Release and Fixed Release Models:** openSUSE provides both a rolling release model with Tumbleweed, offering the latest software updates, and a fixed release model with Leap, focusing on stability and long-term support.\n\n- **Zypper Package Manager:** Zypper is the package manager used in openSUSE, offering command-line and graphical interfaces for installing, updating, and removing software packages.\n\n## Basic Commands\nHere are some essential commands for openSUSE using Zypper:\n\n- `zypper update`: Update the system and installed packages.\n\n- `zypper install [package]`: Install a new package.\n\n- `zypper remove [package]`: Remove a package.\n\n- `zypper search [keyword]`: Search for packages matching a keyword.\n\n## openSUSE Versions\nopenSUSE offers two main versions, each catering to different user needs:\n",
+        "pros": "YaST configuration tool,\nFlexible release models,\nZypper package manager.",
+        "cons": "Learning curve for beginners,\nSmaller software repository compared to some distributions.",
+        "communityrating": "4.6",
+        "Usability": "4.5",
+        "Performance": "4.7",
+        "subDistrs": [
+            {
+                "title": "openSUSE Leap",
+                "forslug": "opensuse-leap",
+                "desc": "# openSUSE Leap\nopenSUSE Leap is the regular release version of openSUSE, offering a fixed and well-tested platform. It combines the stability of a fixed release model with access to a wide range of software packages. openSUSE Leap serves as a reliable choice for desktops, servers, and development environments.\n\n## Features\n- **Stability and Predictability:** openSUSE Leap follows a fixed release model, providing a stable and predictable platform for users who prioritize reliability.\n\n- **Access to openSUSE Build Service:** Users can leverage the openSUSE Build Service to create and customize packages, extending the available software library.\n\n- **Integration with SUSE Linux Enterprise:** openSUSE Leap benefits from the collaboration with SUSE Linux Enterprise, incorporating enterprise-grade technologies.\n\n## Pros\n- **Reliability:** openSUSE Leap is designed to be a dependable choice for various use cases, including desktops and servers.\n\n- **Access to Enterprise Technologies:** The integration with SUSE Linux Enterprise brings enterprise-level features to openSUSE Leap.\n\n## Cons\n- **May Lack the Latest Software Versions:** Due to the fixed release model, openSUSE Leap may not have the latest software versions available compared to rolling-release distributions.\n\n- **Less Cutting-Edge Features:** Users looking for bleeding-edge features may find Leap to be more conservative in its software selection.\n",
+                "pros": "Stability and predictability,\nAccess to openSUSE Build Service,\nIntegration with SUSE Linux Enterprise.",
+                "cons": "May lack the latest software versions,\nLess cutting-edge features.",
+                "ratings": "Community: 4.7\nUsability: 4.6\nPerformance: 4.8"
+            },
+            {
+                "title": "openSUSE Tumbleweed",
+                "forslug": "opensuse-tumbleweed",
+                "desc": "# openSUSE Tumbleweed\nopenSUSE Tumbleweed is the rolling-release version of openSUSE, offering the latest software updates and features. It is ideal for users who want to experience cutting-edge technologies and receive continuous updates.\n\n## Features\n- **Rolling Release Model:** Tumbleweed follows a rolling release model, providing users with access to the latest upstream software releases without the need for version upgrades.\n\n- **Up-to-Date Software:** Tumbleweed includes the latest software versions, making it suitable for users who want to experience new features and improvements as soon as they are available.\n\n- **Community-Driven Development:** Tumbleweed benefits from active community involvement, with contributions and feedback shaping the direction of the distribution.\n\n## Pros\n- **Latest Software Versions:** Tumbleweed provides access to the latest and most up-to-date software available in the open source ecosystem.\n\n- **Continuous Updates:** Users on Tumbleweed receive continuous updates, eliminating the need for periodic major upgrades.\n\n## Cons\n- **Potential for Occasional Instability:** As a rolling-release distribution, Tumbleweed may occasionally experience instability due to rapid software changes.\n\n- **Learning Curve for New Users:** Tumbleweed may have a steeper learning curve for users new to rolling-release models.\n",
+                "pros": "Rolling release model,\nUp-to-date software,\nCommunity-driven development.",
+                "cons": "Potential for occasional instability,\nLearning curve for new users.",
+                "ratings": "Community: 4.8\nUsability: 4.5\nPerformance: 4.9"
+            }
+        ]
+    }
+}
