@@ -1,16 +1,16 @@
 import fs from "fs";
 
 export default async function distroData(req, res) {
-    try {
-        const filePath = `./distrodata/${req.query.slug}.json`;
+  try {
+    const filePath = `./distrodata/${req.query.slug}.json`;
 
-        const data = await fs.promises.readFile(filePath, "utf8");
+    const data = await fs.promises.readFile(filePath, "utf8");
 
-        // Sending the file content as the response
+    // Sending the file content as the response
 
-        res.status(200).send(data);
-    } catch (err) {
-        // Error occurred while reading or file not found
-        res.status(500).send("Not Found");
-    }
+    res.status(200).send(data);
+  } catch (err) {
+    // Error occurred while reading or file not found
+    res.status(500).send("Not Found");
+  }
 }
