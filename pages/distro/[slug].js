@@ -9,7 +9,9 @@ function Slug() {
   const [itemDis, setitemDis] = useState({});
   //SubDistros
   const [itemsubDis, setitemsubDis] = useState([]);
-
+  useEffect(() => {
+    fetchDistro();
+  }, [slug]);
   const fetchDistro = async () => {
     const response = await fetch(
       `http://localhost:3000/api/distrodata?slug=${slug}`
@@ -21,9 +23,7 @@ function Slug() {
     setitemsubDis(subDistributions);
     console.log(distribution.title);
   };
-  useEffect(() => {
-    fetchDistro();
-  }, []);
+
   return (
     <>
       <div>

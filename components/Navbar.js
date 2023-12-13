@@ -1,27 +1,40 @@
-import React from 'react'
-import { GiHamburgerMenu} from "react-icons/gi";
+import React, { useEffect } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseFill } from "react-icons/ri";
-import { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { useRouter } from "next/router";
 
 function Navbar() {
-    const [navbar, setNavbar] = useState(false);
-    
+  const router = useRouter();
+  const [navbar, setNavbar] = useState(false);
+  const [value, setValue] = useState([]);
+
+
+  
+  const handleChange = (e) => {
+    setValue(e.target.value.toLowerCase());
+    console.log(value);
+  };
+  const handleSearch = (e) => {
+    e.preventDefault();
+    router.push(`/distro/${encodeURIComponent(value)}`,undefined, { shallow: true });
+  };
+
   return (
     <div>
-      <nav className='mb-10' >
+      <nav className="mb-10 mx-auto shadow-sm">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                
               {/* LOGO */}
-              
-              <Link href="/" className='flex items-center'>
-                <Image src='./logo.svg' height={40} width={40} alt='logo'/>
+
+              <Link href="/" className="flex items-center">
+                <Image src="./logo.svg" height={40} width={40} alt="logo" />
                 <h2 className="text-2xl font-bold">DistroHub</h2>
               </Link>
-              
+
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
                 <button
@@ -29,9 +42,9 @@ function Navbar() {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <RiCloseFill className='text-3xl'/>
+                    <RiCloseFill className="text-3xl" />
                   ) : (
-                    <GiHamburgerMenu  className='text-3xl'/>
+                    <GiHamburgerMenu className="text-3xl" />
                   )}
                 </button>
               </div>
@@ -40,16 +53,15 @@ function Navbar() {
           <div>
             <div
               className={`flex-1 justify-self-center md:block md:pb-0 md:mt-0  ${
-                navbar ? 'md:p-0 block' : 'hidden'
+                navbar ? "md:p-0 block" : "hidden"
               }`}
             >
               <ul className="flex flex-row  md:h-auto items-center justify-center md:flex ">
-              
                 <li className="mx-auto my-3 md:mx-3 text-xl font-medium">
                   <Link href="/distros" onClick={() => setNavbar(!navbar)}>
                     Distros
                   </Link>
-                </li>  
+                </li>
                 <li className="mx-auto my-3 md:mx-3 text-xl font-medium">
                   <Link href="/wms" onClick={() => setNavbar(!navbar)}>
                     WMs
@@ -57,12 +69,12 @@ function Navbar() {
                 </li>
                 <li className="mx-auto my-3 md:mx-3 text-xl font-medium">
                   <Link href="/why" onClick={() => setNavbar(!navbar)}>
-                   Why?
+                    Why?
                   </Link>
                 </li>
                 <li className="mx-auto my-3 md:mx-3 text-xl font-medium">
                   <Link href="/linux" onClick={() => setNavbar(!navbar)}>
-                   Linux
+                    Linux
                   </Link>
                 </li>
                 <li className="mx-auto my-3 md:mx-3 text-xl font-medium">
@@ -70,14 +82,27 @@ function Navbar() {
                     About
                   </Link>
                 </li>
+                <li>
+                  <div className="relative">
+                    <form role="search" onSubmit={handleSearch}>
+                      <input
+                        type="search"
+                        id="default-search"
+                        className="block w-full p-2 border border-gray-500  bg-[#343333] text-white text-sm rounded-lg "
+                        placeholder="Search....."
+                        onChange={handleChange}
+                        required
+                      />
+                    </form>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
-
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
