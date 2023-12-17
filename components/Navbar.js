@@ -10,16 +10,14 @@ function Navbar() {
   const router = useRouter();
   const [navbar, setNavbar] = useState(false);
   const [value, setValue] = useState([]);
-
-
-  
   const handleChange = (e) => {
     setValue(e.target.value.toLowerCase());
-    console.log(value);
   };
   const handleSearch = (e) => {
     e.preventDefault();
-    router.push(`/distro/${encodeURIComponent(value)}`,undefined, { shallow: true });
+    router.push(`/distro/${encodeURIComponent(value)}`, undefined, {
+      shallow: false,
+    });
   };
 
   return (
@@ -32,7 +30,9 @@ function Navbar() {
 
               <Link href="/" className="flex items-center">
                 <Image src="./logo.svg" height={40} width={40} alt="logo" />
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">DistroHub</h2>
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+                  DistroHub
+                </h2>
               </Link>
 
               {/* HAMBURGER BUTTON FOR MOBILE */}
@@ -89,7 +89,7 @@ function Navbar() {
                         type="search"
                         id="default-search"
                         className="block w-full p-2 border-2 border-gray-500  bg-[#343333] text-white text-sm rounded-lg "
-                        placeholder="Search....."
+                        placeholder="Search distro....."
                         onChange={handleChange}
                         required
                       />

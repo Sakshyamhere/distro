@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import * as fs from "node:fs";
 function Slug({ file }) {
   if (!file || !file.title) {
-    // Handle cases where 'file' or 'file.title' is undefined
-    return <div>Loading...</div>; // Or any suitable placeholder/error message
+    return <div>Loading...</div>; 
   }
   return (
     <>
@@ -20,11 +19,11 @@ function Slug({ file }) {
 export default Slug;
 
 export const getStaticPaths = async () => {
-  const data = await fs.promises.readdir("subdistro");
+  const data = await fs.promises.readdir("windowmngrs");
   let arrData = [];
   for (let i = 0; i < data.length; i++) {
     const element = data[i];
-    const myFile = await fs.promises.readFile(`subdistro/${element}`);
+    const myFile = await fs.promises.readFile(`windowmngrs/${element}`);
     const parsedfile = JSON.parse(myFile)
     const frslug = parsedfile.forslug;
     arrData.push({ params: { slug: frslug } });
@@ -37,7 +36,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { slug } = context.params;
-  const myFile = await fs.promises.readFile(`subdistro/${slug}.json`, "utf-8");
+  const myFile = await fs.promises.readFile(`windowmngrs/${slug}.json`, "utf-8");
   const file = await JSON.parse(myFile);
   return { props: { file: file } };
 };

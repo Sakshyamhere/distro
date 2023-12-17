@@ -1,0 +1,12 @@
+{
+    "title": "elementary OS",
+    "forslug": "elementaryos",
+    "img": "https://vicrlda.com.br/wp-content/uploads/2020/12/centos-512.png",
+    "desc": "# elementary OS\nelementary OS is a Debian-based distribution known for its beautiful and minimalistic desktop environment called Pantheon. With a focus on simplicity and design, elementary OS offers a cohesive and visually appealing user experience. It comes with its own set of applications designed for a seamless and integrated workflow.\n\nelementary OS sets itself apart through its emphasis on design aesthetics and user experience. The Pantheon desktop environment, coupled with carefully crafted applications, delivers a cohesive and enjoyable computing experience.\n\n## Pros\n- **Stunning and cohesive design:** elementary OS is renowned for its visually striking and cohesive design. From system elements to applications, there is a consistent and aesthetically pleasing look and feel.\n\n- **Intuitive and user-friendly:** The user interface of elementary OS is designed to be intuitive, making it easy for users to navigate and perform tasks. The system is crafted with a focus on user experience.\n\n- **Curated set of applications for consistency:** elementary OS includes a curated set of applications that align with the overall design philosophy. These applications not only contribute to the visual consistency but also enhance the user experience.\n\n## Cons\n- **Limited software availability in the AppCenter:** While elementary OS provides a set of core applications, the availability of third-party software in the AppCenter may be more limited compared to larger software repositories.\n\n- **May not appeal to users who prefer more customization:** Users who seek extensive customization options and tweaking may find elementary OS to be less flexible in comparison to some other distributions.",
+    "pros": "Stunning and cohesive design,\nIntuitive and user-friendly,\nCurated set of applications for consistency.",
+    "cons": "Limited software availability in the AppCenter,\nMay not appeal to users who prefer more customization.",
+    "ratings": "Community: 4.6\nUsability: 4.5\nPerformance: 4.3",
+    "communityrating": "4.6",
+    "Ustability": "4.5",
+    "Performance": "4.3"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Linux Mint",
+    "forslug": "linuxmint",
+    "img": "https://vicrlda.com.br/wp-content/uploads/2020/12/centos-512.png",
+    "desc": "# Linux Mint\nLinux Mint is an elegant and user-friendly distribution based on Debian and Ubuntu. It provides a polished desktop experience with a variety of desktop environments to choose from, including Cinnamon, MATE, and Xfce. Linux Mint focuses on delivering a complete and user-friendly computing experience out of the box.\n\nLinux Mint traces its roots back to Ubuntu and Debian, aiming to provide a more user-centric and intuitive desktop environment. It prioritizes simplicity, stability, and ease of use, making it an excellent choice for users transitioning from other operating systems.\n\n## Pros\n- **User-friendly and intuitive interface:** Linux Mint offers a desktop environment that is easy to navigate, making it accessible to users of all levels of experience. The user interface is designed to be intuitive and straightforward.\n\n- **Stable and reliable:** Building upon the stability of Debian, Linux Mint provides a reliable computing experience. It is well-suited for both desktop and laptop use, offering a stable platform for various tasks.\n\n- **Large and supportive community:** Linux Mint benefits from a large and active community. Users can find support, tutorials, and a wealth of resources to enhance their Linux Mint experience.\n\n## Cons\n- **Not as bleeding-edge as some distributions:** While stability is a strength, Linux Mint may not always have the latest software versions available. Users seeking cutting-edge features may find other distributions more appealing.\n\n- **Limited pre-installed applications compared to other distros:** The default installation of Linux Mint includes essential applications, but it may not have the breadth of pre-installed software found in some other distributions.",
+    "pros": "User-friendly and intuitive interface,\nStable and reliable,\nLarge and supportive community.",
+    "cons": "Not as bleeding-edge as some distributions,\nLimited pre-installed applications compared to other distros.",
+    "ratings": "Community: 4.8\nUsability: 4.6\nPerformance: 4.4",
+    "communityrating": "4.8",
+    "Ustability": "4.6",
+    "Performance": "4.4"
+}

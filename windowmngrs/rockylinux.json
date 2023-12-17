@@ -1,0 +1,9 @@
+{
+    "title": "Rocky Linux",
+    "forslug": "rockylinux",
+    "img": "https://vicrlda.com.br/wp-content/uploads/2020/12/centos-512.png",
+    "desc": "# Rocky Linux\nRocky Linux is a community-driven Linux distribution created as a replacement for CentOS following the changes introduced by CentOS Stream. It aims to provide a downstream, stable, and predictable distribution that serves as a free and open-source alternative to RHEL. Rocky Linux is particularly designed to meet the needs of users and organizations that were accustomed to the traditional CentOS model.\n\n## Features\n- **Continuation of CentOS Legacy:** Rocky Linux aims to continue the legacy of traditional CentOS by providing a stable and community-supported operating system.\n\n- **Binary Compatibility with RHEL:** Similar to CentOS, Rocky Linux maintains binary compatibility with RHEL, ensuring compatibility with RHEL-compatible software.\n\n- **Community-Driven Development:** Rocky Linux is developed and supported by the community, encouraging collaboration and contributions.\n\n## Pros\n- **Stable and Predictable:** Rocky Linux aims to provide a stable and predictable environment, catering to users who valued the traditional CentOS model.\n\n- **Community-Driven:** The development and support of Rocky Linux are driven by the community, fostering collaboration and inclusivity.\n\n## Cons\n- **Relatively Newer Compared to CentOS:** Rocky Linux is a newer project compared to CentOS, and users may need to assess its maturity based on their specific requirements.\n\n- **Community Support Availability:** As with any community-driven project, the availability of support may vary based on community engagement.\n",
+    "pros": "Stable and predictable,\nCommunity-driven.",
+    "cons": "Relatively newer compared to CentOS,\nCommunity support availability.",
+    "ratings": "Community: 4.8\nUsability: 4.7\nPerformance: 4.9"
+}

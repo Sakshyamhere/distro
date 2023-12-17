@@ -1,0 +1,9 @@
+{
+    "title": "AlmaLinux",
+    "forslug": "almalinux",
+    "img": "https://vicrlda.com.br/wp-content/uploads/2020/12/centos-512.png",
+    "desc": "# AlmaLinux\nAlmaLinux is another community-driven Linux distribution designed to be a direct, one-to-one binary replacement for CentOS. It is created to fill the void left by the shift in the CentOS project's direction and aims to provide a stable and free alternative for users and organizations that relied on the traditional CentOS model.\n\n## Features\n- **Seamless Transition from CentOS 8:** AlmaLinux is positioned as a seamless and drop-in replacement for CentOS 8, ensuring compatibility for users migrating from CentOS.\n\n- **Community-Led and Open Governance:** AlmaLinux emphasizes community-led development and open governance, allowing users to actively participate in the project's direction.\n\n- **Long-Term Support (LTS):** Similar to CentOS, AlmaLinux follows a long-term support model, providing updates and security patches for an extended period.\n\n## Pros\n- **Drop-In Replacement:** AlmaLinux aims to be a drop-in replacement for CentOS 8, simplifying the migration process for existing users.\n\n- **Community-Led:** The community-led development ensures active participation and diverse perspectives in the project.\n\n## Cons\n- **Relatively Newer Compared to CentOS:** AlmaLinux, being a newer project, may require users to assess its stability and suitability based on their specific needs.\n\n- **Community Support Availability:** As with any community-driven project, the availability of support may vary based on community engagement.\n",
+    "pros": "Drop-in replacement for CentOS 8,\nCommunity-led development.",
+    "cons": "Relatively newer compared to CentOS,\nCommunity support availability.",
+    "ratings": "Community: 4.7\nUsability: 4.8\nPerformance: 4.9"
+}
