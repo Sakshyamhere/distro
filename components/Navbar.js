@@ -57,6 +57,11 @@ function Navbar() {
               }`}
             >
               <ul className="flex  sm:flex-col  md:h-auto items-center justify-center md:flex md:flex-row ">
+              <li className="mx-auto my-3 md:mx-2 lg:mx-4 text-xl md:text-2xl font-medium">
+                  <Link href="/terminology" onClick={() => setNavbar(!navbar)}>
+                    Terminology
+                  </Link>
+                </li>
                 <li className="mx-auto my-3 md:mx-2 lg:mx-4 text-xl md:text-2xl font-medium">
                   <Link href="/distros" onClick={() => setNavbar(!navbar)}>
                     Distros
@@ -73,12 +78,7 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="mx-auto my-3 md:mx-2 lg:mx-4 text-xl md:text-2xl font-medium">
-                  <Link href="/linux" onClick={() => setNavbar(!navbar)}>
-                    Linux
-                  </Link>
-                </li>
-                <li className="mx-auto my-3 md:mx-2 lg:mx-4 text-xl md:text-2xl font-medium">
-                  <Link href="/home" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/about" onClick={() => setNavbar(!navbar)}>
                     About
                   </Link>
                 </li>
