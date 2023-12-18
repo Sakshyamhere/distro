@@ -1,107 +1,43 @@
-import React, { useEffect } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { RiCloseFill } from "react-icons/ri";
-import { useState } from "react";
+import React from "react";
+import { MdHome, MdQuestionMark } from "react-icons/md";
+import { FaLinux } from "react-icons/fa";
+import { BsReverseLayoutTextWindowReverse, BsSearch } from "react-icons/bs";
+import { CgProfile } from "react-icons/cg";
+import { GiLightningBranches } from "react-icons/gi";
 import Link from "next/link";
-import Image from "next/image";
-import { useRouter } from "next/router";
-
 function Navbar() {
-  const router = useRouter();
-  const [navbar, setNavbar] = useState(false);
-  const [value, setValue] = useState([]);
-  const handleChange = (e) => {
-    setValue(e.target.value.toLowerCase());
-  };
-  const handleSearch = (e) => {
-    e.preventDefault();
-    router.push(`/distro/${encodeURIComponent(value)}`, undefined, {
-      shallow: false,
-    });
-  };
-
   return (
-    <div>
-      <nav className="mb-10 mx-auto shadow-md">
-        <div className="justify-between px-4 mx-auto md:items-center md:mx-10 lg:mx-20 md:flex">
-          <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              {/* LOGO */}
-
-              <Link href="/" className="flex items-center">
-                <Image src="./logo.svg" height={40} width={40} alt="logo" />
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                  DistroHub
-                </h2>
-              </Link>
-
-              {/* HAMBURGER BUTTON FOR MOBILE */}
-              <div className="md:hidden">
-                <button
-                  className="p-2 rounded-md outline-none focus:border-gray-400 focus:border"
-                  onClick={() => setNavbar(!navbar)}
-                >
-                  {navbar ? (
-                    <RiCloseFill className="text-3xl" />
-                  ) : (
-                    <GiHamburgerMenu className="text-3xl" />
-                  )}
-                </button>
-              </div>
+      <div>
+        <nav className = 'flex  justify-between float-left h-[99vh] flex-col bg-gray-900 w-[7vh] m-1 rounded-xl fixed'>
+          <ul className='mx-auto'>
+            <div>
+              <li className="my-6 text-3xl">
+              <Link href='/'><MdHome /></Link>
+              </li>
+              <li className="my-6 text-3xl">
+              <Link href='/linux'><FaLinux /></Link>
+              </li>
+              <li className="my-6 text-3xl">
+              <Link href='/why'><MdQuestionMark /></Link>
+              </li>
+              <li className="my-6 text-3xl">
+              <Link href='/wms'><BsReverseLayoutTextWindowReverse /></Link>
+              </li>
+              <li className="my-6 text-3xl">
+              <Link href='/about'><CgProfile /></Link>
+              </li>
+              <li className="my-6 text-3xl">
+              <Link href='/distros'><GiLightningBranches /></Link>
+              </li>
             </div>
-          </div>
-          <div>
-            <div
-              className={`flex-1 justify-self-center md:block md:pb-0 md:mt-0  ${
-                navbar ? "md:p-0 block" : "hidden"
-              }`}
-            >
-              <ul className="flex  sm:flex-col  md:h-auto items-center justify-center md:flex md:flex-row ">
-              <li className="mx-auto my-3 md:mx-2 lg:mx-4 text-xl md:text-2xl font-medium">
-                  <Link href="/terminology" onClick={() => setNavbar(!navbar)}>
-                    Terminology
-                  </Link>
-                </li>
-                <li className="mx-auto my-3 md:mx-2 lg:mx-4 text-xl md:text-2xl font-medium">
-                  <Link href="/distros" onClick={() => setNavbar(!navbar)}>
-                    Distros
-                  </Link>
-                </li>
-                <li className="mx-auto my-3 md:mx-2 lg:mx-4 text-xl md:text-2xl font-medium">
-                  <Link href="/wms" onClick={() => setNavbar(!navbar)}>
-                    WMs
-                  </Link>
-                </li>
-                <li className="mx-auto my-3 md:mx-2 lg:mx-4 text-xl md:text-2xl font-medium">
-                  <Link href="/why" onClick={() => setNavbar(!navbar)}>
-                    Why?
-                  </Link>
-                </li>
-                <li className="mx-auto my-3 md:mx-2 lg:mx-4 text-xl md:text-2xl font-medium">
-                  <Link href="/about" onClick={() => setNavbar(!navbar)}>
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <div className="relative">
-                    <form role="search" onSubmit={handleSearch}>
-                      <input
-                        type="search"
-                        id="default-search"
-                        className="block w-full p-2 border-2 border-gray-500  bg-[#343333] text-white text-sm rounded-lg "
-                        placeholder="Search distro....."
-                        onChange={handleChange}
-                        required
-                      />
-                    </form>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+          </ul>
+          <ul className='mx-auto'>
+            <li className="my-6 text-3xl">
+            <BsSearch/>
+            </li>
+          </ul>
+        </nav>
         </div>
-      </nav>
-    </div>
   );
 }
 
