@@ -1,0 +1,8 @@
+{
+    "subdistros": {
+        "title": "Ubuntu",
+        "forslug": "ubuntu",
+        "desc": "# Ubuntu\n<p>Ubuntu is a widely used Debian-based Linux distribution known for its ease of use, regular release cycle, and strong focus on the user experience. It has become one of the most popular Linux distributions, attracting a large and diverse user base. Ubuntu is suitable for various purposes, including desktop computing, server deployment, and cloud environments.</p><h2>Features and Philosophy</h2><p>Ubuntu aims to provide a complete and user-friendly computing experience. It includes a wide range of software packages, a vibrant community, and support for diverse hardware. The distribution follows a time-based release cycle, with long-term support (LTS) releases providing stability and security updates for an extended period.</p><p>The Ubuntu Desktop environment, based on GNOME, offers an intuitive and visually appealing interface. Ubuntu also emphasizes the importance of collaboration, openness, and accessibility.</p><h2>Installation</h2><p>Installing Ubuntu is straightforward, with a user-friendly installer guiding users through the process. The installer allows users to choose options such as third-party software, updates, and disk partitioning.</p><p><strong>Pros:</strong></p><ul><li>User-friendly.</li><li>Vast software repository.</li><li>LTS releases for stability.</li></ul><p><strong>Cons:</strong></p><ul><li>Some proprietary software included.</li><li>Desktop environment preferences.</li></ul>",
+        "img": "https://brandslogos.com/wp-content/uploads/images/large/ubuntu-logo.png"
+    }
+}

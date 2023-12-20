@@ -1,0 +1,8 @@
+{
+    "subdistros": {
+        "title": "Rocky Linux",
+        "forslug": "rockylinux",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Rocky_Linux_logo.svg/4096px-Rocky_Linux_logo.svg.png",
+        "desc": "# Rocky Linux\n<p>Rocky Linux is a community-driven Linux distribution created as a replacement for CentOS following the changes introduced by CentOS Stream. It aims to provide a downstream, stable, and predictable distribution that serves as a free and open-source alternative to RHEL. Rocky Linux is particularly designed to meet the needs of users and organizations that were accustomed to the traditional CentOS model.</p><h2>Features</h2><ul><li><strong>Continuation of CentOS Legacy:</strong> Rocky Linux aims to continue the legacy of traditional CentOS by providing a stable and community-supported operating system.</li><li><strong>Binary Compatibility with RHEL:</strong> Similar to CentOS, Rocky Linux maintains binary compatibility with RHEL, ensuring compatibility with RHEL-compatible software.</li><li><strong>Community-Driven Development:</strong> Rocky Linux is developed and supported by the community, encouraging collaboration and contributions.</li><h2>Pros and Cons</h2><p><strong>Pros:</strong></p><ol><li>Stable and predictable.</li><li>Community-driven.</li></ol><p><strong>Cons:</strong></p><ol><li>Relatively newer compared to CentOS.</li><li>Community support availability.</li></ol>"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "subdistro": {
+        "title": "Xubuntu",
+        "forslug": "xubuntu",
+        "desc": "# Xubuntu\n<p>Xubuntu is an official Ubuntu flavor that utilizes the Xfce desktop environment. It is designed to be lightweight and efficient, making it suitable for older hardware and users who prefer a streamlined desktop experience.</p><h2>Features</h2><ul><li><strong>Xfce Desktop Environment:</strong> Xubuntu features the Xfce desktop environment, known for its low resource usage and responsiveness.</li><li><strong>Resource-Efficient:</strong> Xubuntu is designed to be lightweight, making it an excellent choice for systems with limited resources or older hardware.</li><li><strong>Access to Ubuntu Repositories:</strong> Xubuntu benefits from the extensive Ubuntu software repositories, providing a wide range of applications.</li></ul><h2>Pros and Cons</h2><p><strong>Pros:</strong></p><ul><li><strong>Lightweight and Fast:</strong> Xfce's lightweight nature ensures that Xubuntu performs well even on older hardware.</li><li><strong>Efficient Resource Usage:</strong> Xubuntu is known for its efficient use of system resources, offering a snappy and responsive user experience.</li></ul><p><strong>Cons:</strong></p><ul><li><strong>May Lack Some Eye-Candy Features:</strong> Users looking for advanced visual effects may find Xfce to be more minimalistic.</li><li><strong>Less Feature-Rich than Some Desktops:</strong> Compared to desktop environments like KDE or GNOME, Xfce may have fewer built-in features.</li></ul></p>",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Xubuntu_logo.svg/600px-Xubuntu_logo.svg.png"
+    }
+}

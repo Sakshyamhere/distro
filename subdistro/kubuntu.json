@@ -1,0 +1,8 @@
+{
+    "subdistro": {
+        "title": "Kubuntu",
+        "forslug": "kubuntu",
+        "desc": "# Kubuntu\n<p>Kubuntu is an official Ubuntu flavor that uses the KDE Plasma desktop environment. It offers a visually appealing and customizable interface, making it suitable for users who prefer the KDE experience.</p><h2>Features</h2><ul><li><strong>KDE Plasma Desktop:</strong> Kubuntu features the KDE Plasma desktop environment, known for its modern look, rich features, and configurability.</li><li><strong>Access to Ubuntu Repositories:</strong> As an Ubuntu flavor, Kubuntu has access to the extensive Ubuntu software repositories, providing a vast selection of applications.</li><li><strong>User-Friendly Configuration:</strong> Kubuntu leverages the System Settings tool for easy and intuitive configuration, allowing users to personalize their desktop experience.</li></ul><h2>Pros and Cons</h2><p><strong>Pros:</strong></p><ul><li><strong>Visually Appealing Interface:</strong> KDE Plasma offers a visually stunning and feature-rich interface, providing an enjoyable user experience.</li><li><strong>Highly Customizable:</strong> Kubuntu allows users to customize the desktop environment extensively, tailoring it to individual preferences.</li></ul><p><strong>Cons:</strong></p><ul><li><strong>Perceived as Heavier:</strong> Some users may perceive the KDE Plasma desktop as heavier compared to other desktop environments.</li><li><strong>Learning Curve for New Users:</strong> Users new to Linux may find the extensive customization options to have a learning curve.</li></ul></p>",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Kubuntu-logo.svg/1024px-Kubuntu-logo.svg.png"
+    }
+}

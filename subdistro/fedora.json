@@ -1,0 +1,8 @@
+{
+    "subdistro": {
+        "title": "Fedora",
+        "forslug": "fedora",
+        "desc": "# Fedora\n<p>Fedora is a community-driven distribution sponsored by Red Hat. It serves as a cutting-edge testing ground for technologies that eventually make their way into Red Hat Enterprise Linux (RHEL). Fedora is known for its commitment to free and open-source software and its embrace of the latest advancements in the Linux ecosystem.</p><h2>Features</h2><ul><li><strong>Bleeding-Edge Technologies:</strong> Fedora often includes the latest software versions and technologies, making it an ideal choice for users who want to experience new features early.</li><li><strong>Regular Release Cycle:</strong> Fedora follows a regular release cycle, with new versions typically every six months. This allows users to stay current with the latest developments.</li><li><strong>Diverse Spins:</strong> Fedora offers different desktop environments known as spins, catering to various user preferences, including Workstation, KDE Plasma, XFCE, and more.</li></ul><h2>Pros and Cons</h2><p><strong>Pros:</strong></p><ul><li><strong>Bleeding-edge technologies,</strong></li><li><strong>Regular release cycle,</strong></li><li><strong>Diverse spins.</strong></li></ul><p><strong>Cons:</strong></p><ul><li><strong>Shorter support lifecycle,</strong></li><li><strong>May encounter bugs.</strong></li></ul></p>",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fedora_logo.svg/1200px-Fedora_logo.svg.png"
+    }
+}
