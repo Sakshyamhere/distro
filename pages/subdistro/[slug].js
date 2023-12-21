@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import * as fs from "node:fs";
 function Slug({ file }) {
   if (!file || !file.title) {
     // Handle cases where 'file' or 'file.title' is undefined
     return <div>Loading...</div>; // Or any suitable placeholder/error message
   }
+
   return (
     <>
       <div>
@@ -26,7 +27,7 @@ export const getStaticPaths = async () => {
     const element = data[i];
     const myFile = await fs.promises.readFile(`subdistro/${element}`);
     const parsedfile = JSON.parse(myFile)
-    const frslug = parsedfile.forslug;
+    console.log(frslug)
     arrData.push({ params: { slug: frslug } });
   }
   return {

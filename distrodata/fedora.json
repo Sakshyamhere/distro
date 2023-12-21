@@ -1,0 +1,23 @@
+{
+    "distro": {
+        "title": "Fedora",
+        "forslug": "fedora",
+        "oneLiner": "Fedora is a cutting-edge, community-driven Linux distribution sponsored by Red Hat, with three primary editions:",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fedora_logo.svg/1200px-Fedora_logo.svg.png",
+        "desc": "# Fedora\n<p>Fedora is a cutting-edge Linux distribution known for its commitment to delivering the latest software and technologies. It serves as the upstream source for Red Hat Enterprise Linux (RHEL) and embraces a community-driven development model. Fedora aims to provide a reliable and innovative platform for desktops, servers, and emerging technologies.</p><h2>Features and Philosophy</h2><ul><li><strong>Bleeding-Edge Software:</strong> Fedora is at the forefront of adopting new and cutting-edge software, making it an excellent choice for users who want the latest features and technologies.</li><li><strong>Community-Driven Development:</strong> Fedora is developed by a diverse and active community, fostering collaboration and contributions from users worldwide.</li><li><strong>Variants for Different Use Cases:</strong> Fedora offers different variants tailored for specific use cases, including Fedora Workstation for desktops and Fedora Server for server deployments.</li></ul><h2>Basic Commands</h2><p>Fedora uses the DNF (Dandified YUM) package management system. Here are some essential commands:</p><ul><li><code>sudo dnf update</code>: Update the system and installed packages.</li><li><code>sudo dnf install [package]</code>: Install a new package.</li><li><code>sudo dnf remove [package]</code>: Remove a package.</li><li><code>sudo dnf search [keyword]</code>: Search for packages matching a keyword.</li></ul><h2>Fedora Variants</h2><p>Fedora provides different variants to cater to various user needs. Let's explore some of the primary variants.</p><h2>Fedora Workstation</h2><p><strong>Pros and Cons</strong></p><p><strong>Pros:</strong></p><ul><li>Cutting-edge desktop technologies.</li><li>Developer-friendly environment.</li></ul><p><strong>Cons:</strong></p><ul><li>Shorter support lifecycle.</li><li>Potential for occasional instability.</li></ul><h2>Fedora Server</h2><p><strong>Pros and Cons</strong></p><p><strong>Pros:</strong></p><ul><li>Minimal server installation.</li><li>Cockpit management interface.</li></ul><p><strong>Cons:</strong></p><ul><li>Shorter support lifecycle.</li><li>Less suitable for production environments.</li></ul></p>"
+    },
+        "subDistrs": [
+            {
+                "title": "Fedora Workstation",
+                "forslug": "fedoraworkstation",
+                "oneLiner": "Aimed at desktop users, it provides a polished desktop environment and is suitable for developers and creative professionals.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fedora_logo.svg/1200px-Fedora_logo.svg.png"
+            },
+            {
+                "title": "Fedora Server",
+                "forslug": "fedoraserver",
+                "oneLiner": "Designed for server environments, it includes features tailored for server applications and services, emphasizing stability and reliability.",
+                "img": "https://static.wikia.nocookie.net/fedora/images/2/21/Server-logo.png/revision/latest?cb=20190504021638"
+            }
+        ]
+    }

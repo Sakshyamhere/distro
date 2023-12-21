@@ -1,0 +1,23 @@
+{
+    "distro": {
+        "title": "Red Hat",
+        "forslug": "redhat",
+        "oneLiner": "Red Hat is an enterprise-focused Linux distribution known as Red Hat Enterprise Linux (RHEL), providing robust, secure, and certified open-source solutions for businesses.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuECYJDzkdFZ0Z_DGfai-R0SgkwiMB_sDLkSecxkvJZg&s",
+        "desc": "# Red Hat\n<p>Red Hat is a leading provider of open-source enterprise solutions, particularly known for its Red Hat Enterprise Linux (RHEL) operating system. Red Hat's commitment to stability, security, and support has made it a trusted choice for enterprise environments. RHEL serves as the foundation for various other distributions and is renowned for its focus on reliability and long-term support.</p><h2>Features and Philosophy</h2><ul><li><strong>Enterprise-Grade Support:</strong> Red Hat offers professional support services for its enterprise customers, ensuring timely security updates, bug fixes, and expert assistance.</li><li><strong>Security and Stability:</strong> RHEL prioritizes security and stability, making it suitable for mission-critical applications in industries such as finance, healthcare, and telecommunications.</li><li><strong>Ecosystem of Solutions:</strong> Beyond the operating system, Red Hat provides a comprehensive ecosystem of solutions, including container orchestration (OpenShift), middleware, and cloud management.</li></ul><h2>Basic Commands</h2><p>Red Hat and its derivatives use the YUM (Yellowdog Updater Modified) package manager. Here are some essential commands:</p><ul><li><code>yum update</code>: Update the system and installed packages.</li><li><code>yum install [package]</code>: Install a new package.</li><li><code>yum remove [package]</code>: Remove a package.</li><li><code>yum list installed</code>: List all installed packages.</li><li><code>yum search [keyword]</code>: Search for packages matching a keyword.</li></ul><h2>Sub-Distributions</h2><p>Red Hat's influence extends to various distributions, with Fedora and CentOS being notable examples. Let's explore them:</p>"
+    },
+        "subDistros": [
+            {
+                "title": "Fedora",
+                "forslug": "fedora",
+                "oneLiner": "Fedora is a cutting-edge, community-driven Linux distribution sponsored by Red Hat, with three primary editions",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fedora_logo.svg/1200px-Fedora_logo.svg.png"
+            },
+            {
+                "title": "CentOS",
+                "forslug": "centos",
+                "oneLiner": "CentOS is a free, enterprise-class Linux distribution derived from the sources of Red Hat Enterprise Linux (RHEL), known for its stability, long-term support, and focus on server environments.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/CentOS_color_logo.svg/1200px-CentOS_color_logo.svg.png"
+            }
+        ]
+    }
