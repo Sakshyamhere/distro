@@ -8,16 +8,17 @@ function Slug({ file }) {
 
   return (
     <>
-      <div>
+      <div className="p-3 ml-[7vh]">
         <div>
-          <h1>{file.title}</h1>
-          <p>{file.desc}</p>
+          <h1 className="bg-gray-600 px-2 text-xl">{file.title}</h1>
+
+          <p className="bg-gray-900 px-2 text-lg py-2" dangerouslySetInnerHTML={{__html : file.desc}}></p>
         </div>
       </div>
     </>
   );
 }
-
+ 
 export default Slug;
 
 export const getStaticPaths = async () => {
@@ -26,8 +27,8 @@ export const getStaticPaths = async () => {
   for (let i = 0; i < data.length; i++) {
     const element = data[i];
     const myFile = await fs.promises.readFile(`subdistro/${element}`);
-    const parsedfile = JSON.parse(myFile)
-    console.log(frslug)
+    const parsedfile = JSON.parse(myFile);
+    const frslug = parsedfile.forslug;
     arrData.push({ params: { slug: frslug } });
   }
   return {
